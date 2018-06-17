@@ -5,6 +5,8 @@
  */
 package calculadora;
 
+import Interfaz.Interfaz;
+
 /**
  *
  * @author Alvaro García <alvarogarcia1010 at github.com>
@@ -16,6 +18,7 @@ public class Calculadora {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        new Interfaz().setVisible(true);
     }
     
 }
